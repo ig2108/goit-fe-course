@@ -16,6 +16,7 @@ html {
 .container {
     max-width: 903px;
     margin: 0 auto;
+    font-size: 0px;
 }
 
 img {
@@ -26,8 +27,8 @@ img {
 
 
 .clearfix::after {
-    content: " ";
-    display: table;
+    content: "";
+    display: block;
     clear: both;
 }
 
@@ -56,6 +57,7 @@ Header
     display: block;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 14px;
     line-height: 24px;
     color: #626262;
@@ -70,10 +72,11 @@ Main
 */
 
 .main__article {
-    width: 420px;
+    width: 421px;
     display: inline-block;
-    margin-right: 59px;
+    margin-right: 61px;
     margin-bottom: 135px;
+    vertical-align: top;
 }
 .main__article:nth-child(2n) {
     margin-right: 0;
@@ -86,6 +89,8 @@ Main
 .subtitle {
     margin-top: 30px;
     margin-bottom: 27px;
+    text-transform: uppercase;
+    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #b4ad9e;
@@ -109,17 +114,17 @@ Main
     margin-bottom: 68px;
     border: 1px;
     text-align: center;
+    border-color: #626262;
 }
 
 .load__button {
+    outline: none;
     background: #ffffff;
     padding: 20px 40px;
     text-align: center;
     color: #626262;
-    border-color: black;
     font-size: 20px;
     line-height: 24px;
-    text-transform: uppercase;
     cursor: pointer;
 }
 
