@@ -9,20 +9,22 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="logo">
-            MART
-        </h1>
-        <ul class="navigation">
-            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Page</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Shop</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Contact us</a></li>
-        </ul>
+    <header class="header container">
+        <nav class="clearfix">
+            <h1 class="logo">
+                Mart
+            </h1>
+            <ul class="navigation">
+                <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Page</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Shop</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Contact us</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class="main__page">
+    <main class="main__page container">
         <section class="subsection">
             <h2 class="subsection__name">
                 Featured products
@@ -44,7 +46,46 @@
                 </li>
                 <li class="product__item">
                     <div class="img__wrapper">
-                        <img src="./img/product1.jpg" alt="">
+                        <img src="./img/product2.jpg" alt="">
+                    </div>
+                    <div class="product__info">
+                        <h3 class="product__name">
+                            Woman shirt
+                        </h3>
+                        <p class="price">
+                            $31
+                        </p>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="img__wrapper">
+                        <img src="./img/product9.jpg" alt="">
+                    </div>
+                    <div class="product__info">
+                        <h3 class="product__name">
+                            Yellow tshirt
+                        </h3>
+                        <p class="price">
+                            $21
+                        </p>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="img__wrapper">
+                        <img src="./img/product4.jpg" alt="">
+                    </div>
+                    <div class="product__info">
+                        <h3 class="product__name">
+                            Cool lingerie
+                        </h3>
+                        <p class="price">
+                            $56
+                        </p>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="img__wrapper">
+                        <img src="./img/product3.jpg" alt="">
                     </div>
                     <div class="product__info">
                         <h3 class="product__name">
@@ -57,79 +98,40 @@
                 </li>
                 <li class="product__item">
                     <div class="img__wrapper">
-                        <img src="./img/product1.jpg" alt="">
+                        <img src="./img/product5.jpg" alt="">
                     </div>
                     <div class="product__info">
                         <h3 class="product__name">
-                            Blue tshirt
+                            Woman shirt
                         </h3>
                         <p class="price">
-                            $26
+                            $31
                         </p>
                     </div>
                 </li>
                 <li class="product__item">
                     <div class="img__wrapper">
-                        <img src="./img/product1.jpg" alt="">
+                        <img src="./img/product6.jpg" alt="">
                     </div>
                     <div class="product__info">
                         <h3 class="product__name">
-                            Blue tshirt
+                            Yellow tshirt
                         </h3>
                         <p class="price">
-                            $26
+                            $21
                         </p>
                     </div>
                 </li>
                 <li class="product__item">
                     <div class="img__wrapper">
-                        <img src="./img/product1.jpg" alt="">
+                        <img src="./img/product8.jpg" alt="">
                     </div>
                     <div class="product__info">
                         <h3 class="product__name">
-                            Blue tshirt
+                            Cool lingerie
                         </h3>
                         <p class="price">
-                            $26
-                        </p>
-                    </div>
-                </li>
-                <li class="product__item">
-                    <div class="img__wrapper">
-                        <img src="./img/product1.jpg" alt="">
-                    </div>
-                    <div class="product__info">
-                        <h3 class="product__name">
-                            Blue tshirt
-                        </h3>
-                        <p class="price">
-                            $26
-                        </p>
-                    </div>
-                </li>
-                <li class="product__item">
-                    <div class="img__wrapper">
-                        <img src="./img/product1.jpg" alt="">
-                    </div>
-                    <div class="product__info">
-                        <h3 class="product__name">
-                            Blue tshirt
-                        </h3>
-                        <p class="price">
-                            $26
-                        </p>
-                    </div>
-                </li>
-                <li class="product__item">
-                    <div class="img__wrapper">
-                        <img src="./img/product1.jpg" alt="">
-                    </div>
-                    <div class="product__info">
-                        <h3 class="product__name">
-                            Blue tshirt
-                        </h3>
-                        <p class="price">
-                            $26
+                            $56
                         </p>
                     </div>
                 </li>
@@ -148,6 +150,7 @@
                     <h4 class="news__title">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur?
                     </h4>
+                    <hr class="news__line">
                     <p class="news__article">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi alias sed dolore architecto, iusto dolorem accusamus nam recusandae aliquam eveniet ullam veniam veritatis distinctio.
                     </p>
@@ -159,11 +162,12 @@
                 </li>
                 <li class="news__item">
                     <div class="img__wrapper">
-                        <img src="./img/ipad-632394_960_720.jpg" alt="">
+                        <img src="./img/slide1.jpg" alt="">
                     </div>
                     <h4 class="news__title">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur?
                     </h4>
+                    <hr class="news__line">
                     <p class="news__article">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi alias sed dolore architecto, iusto dolorem accusamus nam recusandae aliquam eveniet ullam veniam veritatis distinctio.
                     </p>
@@ -175,11 +179,12 @@
                 </li>
                 <li class="news__item">
                     <div class="img__wrapper">
-                        <img src="./img/ipad-632394_960_720.jpg" alt="">
+                        <img src="./img/slide3.jpg" alt="">
                     </div>
                     <h4 class="news__title">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur?
                     </h4>
+                    <hr class="news__line">
                     <p class="news__article">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi alias sed dolore architecto, iusto dolorem accusamus nam recusandae aliquam eveniet ullam veniam veritatis distinctio.
                     </p>
