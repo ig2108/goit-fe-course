@@ -99,16 +99,21 @@ Main
     height: 7px;
     background: #1abc9c;
 }
+ .subsection__line:nth-last-of-type(1n) {
+     margin-bottom: 80px;
+}
 
 .img__wrapper {
     display: block;
     
 }
 
+
 .product__item {
     float: left;
     width: 255px;
 }
+
 
 .product__item:not(:nth-of-type(4n)) {
     margin-right: 30px;
@@ -131,6 +136,11 @@ Main
     font-weight: bold;
 }
 
+.product__name:hover,
+.product__name:focus {
+    background-color: #1abc9c;
+}
+
 .price {
     float: right;
     display: block;
@@ -144,3 +154,65 @@ Main
     font-weight: bold;
 }
 
+.price:hover, 
+.prife:focus {
+    background-color: #1abc9c;
+}
+
+.news__item {
+    float: left;
+    display: block;
+    width: 350px;
+}
+
+.news__item:not(:nth-of-type(3n)) {
+    margin-right: 30px;
+}
+
+.img__news {
+    margin-bottom: 20px;
+}
+
+.news__title {
+    margin-bottom: 20px;
+    font-size: 18px; 
+    line-height: 26px;
+    font-weight: bolder;
+    color: #555252;
+}
+
+.news__lines {
+    margin-bottom: 36px;
+    display: block;
+    text-align: left;
+}
+
+.news__lines {
+    display: block;
+    text-align: left;
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+}
+
+.news__article {
+    margin-bottom: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #555252;
+}
+
+.button {
+    margin-bottom: 80px;
+}
+
+.button__read__mr {
+    padding: 24px 48px;
+    text-align: center;
+    background-color: #1abc9c;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 5px;
+}
