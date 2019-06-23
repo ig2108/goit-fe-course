@@ -31,7 +31,7 @@ img {
 Header
 */
 
-.logo {
+.company__name {
     float: left;
     margin-top: 37px;
     margin-bottom: 114px;
@@ -41,7 +41,7 @@ Header
     color: #515151;
 }
 
-.logo::first-letter {
+.company__name::first-letter {
     color: #1abc9c;
     font-weight: bold;
 }
@@ -61,7 +61,6 @@ Header
 
 .nav__item {
     float: left;
-    display: block;
     text-align: center;
     padding: 0px 18px ;
 }
@@ -95,6 +94,7 @@ Main
 
 .subsection__line {
     margin-bottom: 92px;
+    margin: 0 auto;
     width: 164px;
     height: 7px;
     background: #1abc9c;
@@ -114,6 +114,13 @@ Main
     width: 255px;
 }
 
+.product__item:hover .product__name {
+    background-color: #1abc9c;
+}
+
+.product__item:hover .price {
+    background-color: #1abc9c;
+}
 
 .product__item:not(:nth-of-type(4n)) {
     margin-right: 30px;
@@ -136,10 +143,10 @@ Main
     font-weight: bold;
 }
 
-.product__name:hover,
+/* .product__name:hover,
 .product__name:focus {
     background-color: #1abc9c;
-}
+} */
 
 .price {
     float: right;
@@ -154,10 +161,10 @@ Main
     font-weight: bold;
 }
 
-.price:hover, 
+/* .price:hover, 
 .prife:focus {
     background-color: #1abc9c;
-}
+} */
 
 .news__item {
     float: left;
@@ -204,6 +211,9 @@ Main
 
 .button {
     margin-bottom: 80px;
+    border: none; 
+    outline: none; 
+    cursor: pointer;
 }
 
 .button__read__mr {
@@ -214,5 +224,5 @@ Main
     text-transform: capitalize;
     font-size: 16px;
     line-height: 26px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
