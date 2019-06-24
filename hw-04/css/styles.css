@@ -92,20 +92,23 @@ Main
     font-weight: bold;
 }
 
-.subsection__line {
-    margin-bottom: 92px;
+.subsection__name::after {
+    content: '';
+    display: block;
     margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 92px;
     width: 164px;
     height: 7px;
     background: #1abc9c;
 }
+
  .subsection__line:nth-last-of-type(1n) {
      margin-bottom: 80px;
 }
 
 .img__wrapper {
-    display: block;
-    
+    display: block;   
 }
 
 
@@ -143,11 +146,6 @@ Main
     font-weight: bold;
 }
 
-/* .product__name:hover,
-.product__name:focus {
-    background-color: #1abc9c;
-} */
-
 .price {
     float: right;
     display: block;
@@ -160,11 +158,6 @@ Main
     text-transform: uppercase;
     font-weight: bold;
 }
-
-/* .price:hover, 
-.prife:focus {
-    background-color: #1abc9c;
-} */
 
 .news__item {
     float: left;
@@ -188,14 +181,11 @@ Main
     color: #555252;
 }
 
-.news__lines {
+.news__title::after {
+    content: '';
+    display: block;
+    margin-top: 20px;
     margin-bottom: 36px;
-    display: block;
-    text-align: left;
-}
-
-.news__lines {
-    display: block;
     text-align: left;
     width: 136px;
     height: 3px;
@@ -217,7 +207,7 @@ Main
 }
 
 .button__read__mr {
-    padding: 24px 48px;
+    padding: 15px 32px;
     text-align: center;
     background-color: #1abc9c;
     color: #ffffff;
