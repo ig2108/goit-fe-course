@@ -30,11 +30,14 @@ img {
 /* 
 Header
 */
+.header {
+    width: 70%;
+}
 
 .company__name {
     float: left;
     margin-top: 37px;
-    margin-bottom: 114px;
+    margin-bottom: 32px;
     font-size: 30px;
     line-height: 32px;
     text-transform: uppercase;
@@ -51,7 +54,7 @@ Header
     display: block;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 38px;
 }
 
 .navigation a:hover, 
@@ -73,3 +76,35 @@ Header
     font-size: 10px;
     line-height: 11px;
 }
+
+/* 
+Main
+*/
+
+.slider__img {
+    position: relative;
+}
+
+.slider__img::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 2, .52);
+    z-index: 1;
+}
+
+/* .slider__content {
+    position: absolute;
+    width: 100%;
+} */
+
+/* .slider__content::before {
+    content: '';
+    height: 50%;
+    width: 50%;
+    position: absolute;
+} */
+  
