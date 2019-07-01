@@ -15,7 +15,7 @@ img {
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto; 
     vertical-align: top;
 }
@@ -35,19 +35,10 @@ Header
     width: 70%;
 }
 
-.company__name {
+.logo {
     float: left;
     margin-top: 37px;
     margin-bottom: 32px;
-    font-size: 30px;
-    line-height: 32px;
-    text-transform: uppercase;
-    color: #515151;
-}
-
-.company__name::first-letter {
-    color: #1abc9c;
-    font-weight: bold;
 }
 
 .navigation {
@@ -84,6 +75,7 @@ Slider
 
 .slider {
     margin-bottom: 98px;
+    width: 100%;
 }
 
 .slider__item {
@@ -122,12 +114,14 @@ Slider
     line-height: 82px;
     font-weight: bold;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 .slider__text {
     color: #ffffff;
     font-size: 24px;
     line-height: 54px;
+    overflow: hidden;
     text-transform: uppercase;
 }
   
@@ -137,31 +131,40 @@ Slider
     cursor: pointer;
     font-size: 50px;
     line-height: 11px;
-    
+    max-width: 1111px;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
 }
 
-.button__cntrl__prev {
+.button__cntrl {
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
     position: absolute;
     background-color: rgb(78, 198, 171, .651);
     width: 104px;
     height: 104px;
-    left: 245px;
     top: 50%;
     transform: translateY(-50%);
     color: #ffffff;
     z-index: 3;
 }
 
-.button__cntrl__next{
-    position: absolute;
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.button__cntrl:hover, 
+.button__cntrl:focus {
     background-color: rgb(26, 188, 156);
-    width: 104px;
-    height: 104px;
-    left: 1252px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #ffffff;
-    z-index: 3;
 }
 
 /* 
@@ -216,6 +219,7 @@ Main
 .product__item:hover .overlay {
     opacity: 1;
     background-color: rgb(0, 0, 0, .549);
+    border-color: rgb(255, 255, 255, .749);
 }
 
 .overlay {
@@ -315,6 +319,7 @@ Main
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+    overflow: hidden;
 }
 
 
@@ -350,7 +355,9 @@ Main
     background-color: #323232;
     color: #ffffff;
     font-size: 18px;
-    line-height: 32px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -363,7 +370,9 @@ Main
     background-color: #8c8c8c;
     color: #ffffff;
     font-size: 18px;
-    line-height: 32px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
     text-transform: uppercase;
     font-weight: bold;
 }
