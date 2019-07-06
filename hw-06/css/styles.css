@@ -8,8 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
 img {
     display: block;
     max-width: 100%;
@@ -58,7 +56,7 @@ Header
     font-weight: 400;
     color: #95e1d3;
     font-size: 14px;
-    line-height: auto;
+    transition: color 200ms linear;
 }
 
 .nav__link::after {
@@ -69,6 +67,7 @@ Header
     margin-top: 12px;
     background-color: #f38181;
     opacity: 0;
+    transition: opacity 200ms linear;
 }
 
 .nav__item:hover .nav__link, 
@@ -99,7 +98,6 @@ The First Section
     font-weight: 400;
     text-align: center;
     font-size: 24px;
-    line-height: auto;
     overflow: hidden;
     margin-bottom: 22px;
 }
@@ -110,8 +108,7 @@ The First Section
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-style: 30px;
-    line-height: auto;
+    font-size: 30px;
     overflow: hidden;
 }
 
@@ -153,7 +150,6 @@ The First Section
     text-transform: uppercase;
     margin-bottom: 14px;
     font-size: 14px;
-    line-height: auto;
     color: #333333;
 }
 
@@ -161,7 +157,7 @@ The First Section
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-style: 15px;
+    font-size: 15px;
     line-height: 24px;
     color: #999999;
 }
@@ -181,7 +177,6 @@ Icons
 .creativity {
     background-image: url('../img/computer__ok.png');
 }
-
 
 .seo {
     background-image: url('../img/book_2.png');
@@ -219,7 +214,16 @@ The Second Section
 
 .team__member {
     width: 380px;
-    position: relative;
+    position: relative;    
+}
+
+.img__member {
+    transform: translate(0, 0);
+    transition: transform 200ms linear;
+}
+
+.team__member:hover .img__member {
+    transform: translate(-10px, -10px);
 }
 
 .team__member:hover .overlay {
@@ -227,8 +231,10 @@ The Second Section
     background-image: -moz-linear-gradient( 90deg, rgb(252,227,138, .9) 0%, rgb(243,129,129, .9) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138, .9) 0%, rgb(243,129,129, .9) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, .9) 0%, rgb(243,129,129, .9) 100%);
+    box-shadow: 10px 10px 0 0 rgb(149, 225, 211);
+    transform: translate(-10px, -10px);
 }
-
+  
 .overlay {
     position: absolute;
     top: 0;
@@ -241,6 +247,7 @@ The Second Section
     width: 380px;
     height: 470px;
     opacity: 0;
+    transition: opacity 200ms linear, transform 200ms linear;
 }
 
 .icons {
@@ -264,6 +271,7 @@ The Second Section
     height: 56px;
     background-color: rgb(252, 227, 138);
     border-right: 1px solid rgb(243, 129, 129);
+    transition: background-color 200ms linear;
 }
 
 .icon:nth-last-child(-n+1) {
@@ -283,8 +291,7 @@ The Second Section
     margin-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-style: 14px;
-    line-height: auto;
+    font-size: 14px;
     color: #333333;
 }
 
@@ -293,7 +300,7 @@ The Second Section
     font-style: italic;
     font-weight: 400;
     text-align: center;
-    font-style: 15px;
+    font-size: 15px;
     line-height: 24px;
     color: #999999;
 }
@@ -304,7 +311,7 @@ Footer
 
 .footer {
     width: 100%;
-    height: 52px;
+    height: 62px;
 }
 
 .footer__content::before {
@@ -331,7 +338,6 @@ Footer
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: auto;
     color: #999999;
 }
 
@@ -345,7 +351,29 @@ Footer
     justify-content: space-between;
 }
 
+.input__area {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 230px;
+    padding-left: 13px;
+    color: #cccccc;
+}
 
-
-  
-  
+.button__sbscr {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-weight: bold;
+    width: 151px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #95e1d3;
+}
