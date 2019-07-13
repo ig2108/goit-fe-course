@@ -134,7 +134,7 @@ Services
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/Icon-Basket.png");
+    background-image: url("../img/Icon-Basket.png");
 }
 
 .responsive__web::before {
@@ -147,7 +147,7 @@ Services
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/Icon-Laptop.png");
+    background-image: url("../img/Icon-Laptop.png");
 }
 
 .web__secutiry::before {
@@ -160,7 +160,7 @@ Services
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/Icon-Locked.png");
+    background-image: url("../img/Icon-Locked.png");
 }
 
 /* 
@@ -169,7 +169,7 @@ Contact Us
 
 .feed__back__section {
     background-color: #222222;
-    background-image: url('/img/Map-Image.png');
+    background-image: url('../img/Map-Image.png');
     background-repeat: no-repeat;
     background-position: 100% 100%;
     padding-bottom: 115px;;
