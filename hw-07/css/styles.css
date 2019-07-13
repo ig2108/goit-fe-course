@@ -1,0 +1,255 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+/* 
+Header
+*/
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 94px;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 488px;
+}
+
+.nav__link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: #343434;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    color: #fede7f;
+}
+
+/* 
+Main
+*/
+
+/* 
+Services
+*/
+
+.subsection__name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.subsection__descr {
+    font-family: "PT Serif";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 78px;
+    color: #777777;
+}
+
+.product__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.product__item {
+    width: 320px;
+    margin-bottom: 124px;
+}
+
+.product__info {
+    text-align: center;
+}
+
+.product__name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 75px;
+    color: rgb(34, 34, 34);
+}
+
+.product__descr {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    width: 280px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+
+ /*
+ Icons
+ */
+
+.e-commerce::before {
+    display: block;
+    content: '';
+    width: 72px;
+    height: 72px;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/img/Icon-Basket.png");
+}
+
+.responsive__web::before {
+    display: block;
+    content: '';
+    width: 72px;
+    height: 72px;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/img/Icon-Laptop.png");
+}
+
+.web__secutiry::before {
+    display: block;
+    content: '';
+    width: 72px;
+    height: 72px;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/img/Icon-Locked.png");
+}
+
+/* 
+Contact Us
+*/
+
+.feed__back__section {
+    background-color: #222222;
+    background-image: url('/img/Map-Image.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-bottom: 115px;;
+}
+
+.feed__back {
+    color: #ffffff;
+    padding-top: 106px;
+}
+
+.form__section {
+    margin-top: 78px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.left__form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+::placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+.input__left {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 459px;
+    padding-left: 20px;
+    height: 54px;
+    margin-bottom: 28px;
+}
+
+.input__right {
+    width: 459px;
+    height: 222px;
+    border-radius: 5px;
+    padding: 18px 20px;
+}
+
+.button__form {
+    text-align: center;
+}
+
+.button {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 240px;
+    height: 66px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(254, 209, 54);
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.input__left:focus:valid, 
+.input__right:focus:valid {
+    outline: green 2px solid;
+}
+
+.input__left:focus:invalid, 
+.input__right:focus:invalid {
+    outline: red 2px solid;
+}
+
+.input__left:nth-of-type(3n):focus {
+    outline: none;
+}
