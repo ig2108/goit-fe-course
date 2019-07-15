@@ -134,7 +134,7 @@ Services
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/icon-basket.png");
+    background-image: url('../img/icon-basket.png');
 }
 
 .responsive__web::before {
@@ -147,7 +147,7 @@ Services
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/icon-laptop.png");
+    background-image: url('../img/icon-laptop.png');
 }
 
 .web__secutiry::before {
@@ -160,7 +160,7 @@ Services
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/icon-locked.png");
+    background-image: url('../img/icon-locked.png');
 }
 
 /* 
