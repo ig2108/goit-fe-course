@@ -42,7 +42,7 @@ Header
 }
 
 .nav__link {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
@@ -65,12 +65,11 @@ Services
 */
 
 .subsection__name {
-    font-family: "Montserrat";
+    font-family: "Montserrat-900", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     color: #222222;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 40px;
     line-height: 75px;
     text-align: center;
@@ -83,7 +82,7 @@ Services
     font-size: 16px;
     text-align: center;
     margin-bottom: 78px;
-    color: #777777;
+    color: #777;
 }
 
 .product__list {
@@ -102,12 +101,13 @@ Services
 }
 
 .product__name {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18px;
     line-height: 75px;
     color: rgb(34, 34, 34);
+    font-weight: bold;
 }
 
 .product__descr {
@@ -117,7 +117,7 @@ Services
     width: 280px;
     font-size: 14px;
     line-height: 16px;
-    color: #777777;
+    color: #777;
 }
 
  /*
@@ -168,7 +168,7 @@ Contact Us
 */
 
 .feed__back__section {
-    background-color: #222222;
+    background-color: #222;
     background-image: url('../img/map-image.png');
     background-repeat: no-repeat;
     background-position: 100% 100%;
@@ -176,7 +176,7 @@ Contact Us
 }
 
 .feed__back {
-    color: #ffffff;
+    color: #fff;
     padding-top: 106px;
 }
 
@@ -195,12 +195,13 @@ Contact Us
 }
 
 ::placeholder {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     text-transform: uppercase;
-    color: #bbbbbb;
+    color: #bbb;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .input__left {
@@ -225,9 +226,9 @@ Contact Us
 }
 
 .button {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     border: none;
     outline: none;
     cursor: pointer;
@@ -236,8 +237,9 @@ Contact Us
     text-align: center;
     border-radius: 3px;
     background-color: rgb(254, 209, 54);
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .input__left:focus:valid, 
