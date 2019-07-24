@@ -19,6 +19,10 @@ img {
 Header
 */
 
+.header__content {
+    margin: 0 auto;
+}
+
 .menu {
     padding: 0;
 }
@@ -310,7 +314,7 @@ Icon
 
 @media (min-width: 992px) {
     
-    .container-fluid {
+    .container {
         max-width: 992px;
     }
 
