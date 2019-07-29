@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
