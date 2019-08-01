@@ -72,8 +72,8 @@
         <section class="section">
             <h3 class="section__name">We work with</h3>
             <h2 class="section__title">Amazing Services</h2>
-            <ul class="list services">
-                <li class="services__item">
+            <ul class="list services clearfix">
+                <li class="services__item services__item--photography">
                     <div class="services__item_info">
                         <h4 class="services__item_title">
                             Photography
@@ -83,7 +83,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="services__item">
+                <li class="services__item services__item--web_design">
                     <div class="services__item_info">
                         <h4 class="services__item_title">
                             Web Design
@@ -93,7 +93,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="services__item">
+                <li class="services__item services__item--creativity">
                     <div class="services__item_info">
                         <h4 class="services__item_title">
                             Creativity
@@ -103,7 +103,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="services__item">
+                <li class="services__item services__item--seo">
                     <div class="services__item_info">
                         <h4 class="services__item_title">
                             Seo
@@ -113,7 +113,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="services__item">
+                <li class="services__item services__item--css_html">
                     <div class="services__item_info">
                         <h4 class="services__item_title">
                             Css &#47; html
@@ -123,7 +123,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="services__item">
+                <li class="services__item services__item--digital">
                     <div class="services__item_info">
                         <h4 class="services__item_title">
                             Digital
@@ -142,7 +142,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             </p>
             <ul class="list team">
-                <li class="list member">
+                <li class="member">
                     <div class="member__img-wrap">
                         <img class="member__img"
                         srcset="./img/member-1.jpg 380w, ./img/member-1@2x.jpg 760w"
@@ -174,9 +174,11 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <svg class="socials__icon">
-                                    <use href="./img/icons/socials/sprite.svg#instagram"></use>
-                                </svg>
+                                <a href="#" class="link socials__link">
+                                    <svg class="socials__icon">
+                                        <use href="./img/icons/socials/sprite.svg#instagram"></use>
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -217,9 +219,11 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <svg class="socials__icon">
-                                    <use href="./img/icons/socials/sprite.svg#instagram"></use>
-                                </svg>
+                                <a href="#" class="link socials__link">
+                                    <svg class="socials__icon">
+                                        <use href="./img/icons/socials/sprite.svg#instagram"></use>
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -260,9 +264,11 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <svg class="socials__icon">
-                                    <use href="./img/icons/socials/sprite.svg#instagram"></use>
-                                </svg>
+                                <a href="#" class="link socials__link">
+                                    <svg class="socials__icon">
+                                        <use href="./img/icons/socials/sprite.svg#instagram"></use>
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -277,12 +283,12 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="copyright">
+        <div class="copyright container">
             <p class="copyright__descrp">
                 &#169; 2016 MoGo free PSD template by <span class="copyright__design">Laaqiq</span>
             </p>
             <form class="form" action="#" method="POST">
-                <input class="form__email" type="email" name="email" placeholder="Your Email..." required>
+                <input class="form__email" type="email" name="email" placeholder="Your email..." required>
                 <div class="form__button_wrap">
                     <button class="button form__button" type="submit">Subscribe</button>
                 </div>

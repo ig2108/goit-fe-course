@@ -46,7 +46,7 @@ services
       services__item--web_design
       services__item--creativity
       services__item--seo
-      services__item--css/html
+      services__item--css_html
       services__item--digital
     services__item_info
     services__item_title
