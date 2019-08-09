@@ -1,0 +1,10 @@
+.form__button {
+  @extend %font_montserrat_bold;
+  @extend %button;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 14px 33px;
+  max-height: 40px;
+  color: $primary_white_color;
+  background-color: $primary_blue_color;
+}

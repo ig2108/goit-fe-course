@@ -1,0 +1,95 @@
+
+container
+
+list
+
+link
+
+button
+
+header
+
+header_wrap
+
+navigation
+
+logo
+    logo__item
+    logo__img
+}
+
+nav
+    nav__item
+    nav__link
+    nav__icon
+      nav__icon--cart
+      nav__icon--search
+}
+
+header_info
+    header_info__title
+    header_info__descrp
+}
+
+button__header_wrap
+button__header
+
+
+section
+    section__name
+    section__title
+    section__descrp
+}
+
+services
+    services__item
+      services__item--photography
+      services__item--web_design
+      services__item--creativity
+      services__item--seo
+      services__item--css_html
+      services__item--digital
+    services__item_info
+    services__item_title
+    services__item_descrp
+}
+
+team
+
+member
+    member__img-wrap
+    member__img
+    member__overlay
+    member__info
+    member__name
+    member__position
+}
+
+socials
+    socials__item
+    socials__link
+    socials__icon
+      socials__icon--facebook
+      socials__icon--twitter
+      socials__icon--pinterest
+      socials__icon--instagram
+}
+
+footer
+
+copyright
+    copyright__descrp
+    copyright__design
+}
+
+form
+    form__email
+}
+
+form__button_wrap
+form__button
+
+
+
+
+

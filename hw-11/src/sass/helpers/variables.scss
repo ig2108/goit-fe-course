@@ -1,0 +1,62 @@
+$main_width: 1200px;
+
+%centralize {
+  margin: 0 auto;
+  text-align: center;
+}
+
+$main_gradient: linear-gradient(
+  90deg,
+  rgba(252, 227, 138, 0.9) 0%,
+  rgba(243, 129, 129, 0.9) 100%
+);
+$box_shadow_color: rgb(149, 225, 211);
+
+$primary_white_color: #fff;
+$secondary_white_color: rgb(231, 231, 231);
+$primary_yellow_color: rgb(252, 227, 138);
+$primary_red_color: rgb(243, 129, 129);
+$secondary_red_color: rgb(245, 71, 71);
+$primary_blue_color: rgb(149, 225, 211);
+$secondary_green_color: rgb(55, 245, 49);
+$title_color: #333;
+$text_color: #999;
+
+
+$transition_color: color 300ms linear;
+$transition_opacity: opacity 300ms linear;
+$transition_transform: transform 300ms linear;
+$transition_box_shadow: box-shadow 300ms linear;
+$transition_bg_color: background-color 300ms linear;
+$transition_fill: fill 300ms linear;
+
+%font_montserrat_norm {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+%font_montserrat_bold {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+%font_roboto_norm {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+%font_roboto_ital {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+%font_kauchan_norm {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+}
+

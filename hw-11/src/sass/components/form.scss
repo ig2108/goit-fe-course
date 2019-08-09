@@ -1,0 +1,26 @@
+.form {
+  @include center_flex_row ('spbt-center');
+}
+
+.form__email {
+  width: 230px;
+  height: 40px;
+  padding-left: 8px;
+  border: 1px solid $secondary_white_color;
+
+  &:focus:valid {
+    outline: 1px solid $secondary_green_color;
+  }
+
+  &:focus:invalid {
+    outline: 1px solid $secondary_red_color;
+  }
+}
+
+::placeholder {
+  @extend %font_roboto_ital;
+  text-transform: capitalize;
+  font-size: 15px;
+  line-height: 24px;
+  color: $secondary_white_color;
+}

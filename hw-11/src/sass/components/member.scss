@@ -1,0 +1,49 @@
+.member {
+  width: 31.67%;
+  position: relative;
+
+  &:hover .member__img-wrap {
+    transform: translate(-10px, -10px);
+  }
+
+  &:hover .member__overlay {
+    opacity: 1;
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 0 $box_shadow_color;
+    background-image: $main_gradient;
+  }
+}
+
+.member__img-wrap {
+  transform: translate(0, 0);
+  transition: $transition_transform;
+}
+
+.member__overlay {
+  @include center_flex_row ('all');
+  width: 100%;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  box-shadow: none;
+  opacity: 0;
+  transition: $transition_opacity, $transition_transform $transition_box_shadow;
+}
+
+.member__name {
+  @extend %font_montserrat_norm;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: $title_color;
+}
+
+.member__position {
+  @extend %font_roboto_ital;
+  font-size: 15px;
+  line-height: 24px;
+  color: $text_color;
+}

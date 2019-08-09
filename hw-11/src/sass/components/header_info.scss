@@ -1,0 +1,16 @@
+.header_info__title {
+  @extend %font_kauchan_norm;
+  font-size: 72px;
+  color: $primary_white_color;
+  text-align: center;
+}
+
+.header_info__descrp {
+  @extend %font_montserrat_bold, %centralize;
+  font-size: 150px;
+  line-height: 140px;
+  text-transform: uppercase;
+  width: 70.67%;
+  margin-bottom: 121px;
+  color: $primary_white_color;
+}

@@ -1,0 +1,14 @@
+.button__header_wrap {
+  text-align: center;
+}
+
+.button__header {
+  @extend %font_montserrat_bold;
+  @extend %button;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 11px 29px;
+  border: 3px solid $primary_white_color;
+  background-color: transparent;
+  color: $primary_white_color;
+}

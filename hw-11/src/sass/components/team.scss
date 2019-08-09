@@ -1,0 +1,5 @@
+.team {
+  @extend %list;
+  @include center_flex_row ('horspbt');
+  padding: 0;
+}

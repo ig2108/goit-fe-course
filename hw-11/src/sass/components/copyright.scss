@@ -1,0 +1,21 @@
+.copyright {
+  @include center_flex_row ('horspbt');
+
+  &::before {
+    @include pseudo;
+    width: 1200px;
+    height: 1px;
+    margin-bottom: 10px;
+    background-color: $text_color;
+  }
+}
+
+.copyright__descrp {
+  @extend %font_montserrat_norm;
+  font-size: 14px;
+  color: $title_color;
+}
+
+.copyright__design {
+  color: $primary_red_color;
+}
